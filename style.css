@@ -1,0 +1,61 @@
+/* Reset for full screen */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fce4ec; /* Soft pink background */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Game Container */
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #7b1fa2; /* Deep purple for title */
+}
+
+/* Score Display */
+.score {
+  margin: 10px auto;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #3949ab; /* Indigo text */
+}
+
+/* Game Canvas */
+canvas {
+  background-color: #e3f2fd; /* Light blue for canvas background */
+  border: 4px solid #7b1fa2; /* Purple border */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Button Styling */
+button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #7b1fa2; /* Purple button */
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+button:hover {
+  background-color: #512da8; /* Darker purple */
+  transform: scale(1.1);
+}
+
